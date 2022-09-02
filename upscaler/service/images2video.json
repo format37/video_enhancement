@@ -1,7 +1,6 @@
 {
-    "images_path": "image_sequence/",
+    "images_path": "data/images_hi/",
     "ascending_sorting_order": "1",
-    "scaling_size": "900",
-    "fps": "24",
-    "output_file_name": "video_low_fps/video_low_fps.avi"
+    "fps": "30",
+    "output_file_name": "data/video_hi/R0012806_er_hi.MP4"
 }

@@ -17,7 +17,7 @@ def main():
         exit()
 
     ascending_sorting_order = int(config['ascending_sorting_order'])
-    scaling_size = int(config['scaling_size'])
+    # scaling_size = int(config['scaling_size'])
 
     # read all files in path    
     filenames = []
@@ -37,11 +37,11 @@ def main():
         try:
             img = cv2.imread(fname)
             # compare sizes
-            if scaling_size != img.shape[0]:
+            """if scaling_size != img.shape[0]:
                 # resize image
                 img = cv2.resize(img, (scaling_size, scaling_size))
                 # resize image
-                img = cv2.resize(img, (scaling_size, scaling_size))
+                img = cv2.resize(img, (scaling_size, scaling_size))"""
             # add image to list
             images.append(img)
         except Exception as e:
